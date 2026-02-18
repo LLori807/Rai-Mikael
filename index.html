@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- Google Fonts for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Styles for mobile devices */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightblue; /* Example change */
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .nav-menu {
+    display: none; /* Hide desktop nav, maybe show a hamburger menu */
+  }
+}
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://picsum.photos/1600/900') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        /* Navigation menu */
+        nav {
+            background-color: rgba(255,255,255,0.85);
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            text-align: center;
+            z-index: 100;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: rgba(255,255,255,0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        strong {
+            color: #555;
+        }
+
+        /* Photo style */
+        .profile-photo {
+            display: block;
+            margin: 10px auto 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007BFF;
+            content: url('1.png');
+            
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#hobby">Hobbies</a>
+    <a href="#dream">Dream Course</a>
+    <a href="#parents">Parents</a>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <section id="about">
+        <h1>About Me</h1>
+        <img src="https://via.placeholder.com/150" alt="My Photo" class="profile-photo">
+        <p><strong>Name:</strong> Rai Mikael Malones</p>
+        <p><strong>Age:</strong> 18</p>
+        <p><strong>Address:</strong> Lico Ville, Block 3 Lot 14, Sitio Pag Asa, San Jose Antipolo City Rizal</p>
+        <p><strong>Birthday:</strong> May 5, 2007</p>
+        <p><strong>Birth Place:</strong> Antipolo City</p>
+        <p><strong>Motto in Life:</strong> "It is what it is"</p>
+    </section>
+
+    <section id="hobby">
+        <h1>Hobbies & Talent</h1>
+        <p><strong>Hobby:</strong> Riding bicycle and Playing Online games</p>
+        <p><strong>Talent:</strong> Doing tricks with my bmx</p>
+    </section>
+
+    <section id="dream">
+        <h1>Dream Course</h1>
+        <p><strong>Dream Course:</strong>  Computer Programmer</p>
+        <p><strong>Why I Chose This Course:</strong> Because it is my dream and i Want to go to the other country to study more
+</p>
+    </section>
+
+    <section id="parents">
+        <h1>Parents</h1>
+        <p><strong>Parents:</strong> Catherine Magtibay and Joemarie Malones</p>
+        <p><strong>Parents' Work:</strong>  Sales lady and Sales boy</p>
+        <p><strong>Crush:</strong>  Shania Nhyl Ayssen P. Roque.</p>
+    </section>
+</div>
+
+</body>
+</html>
+
